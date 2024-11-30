@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+.num, .delete{
+    width: 100px;
+    height: 100px;
+    background: #1b4172;
+    color: #ffffff;
+    padding: 50px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+form{
+    margin: 0 auto;
+}
+#display{
+    height: 150px;
+    border: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+    text-align: right;
+    pointer-events: none;
+    background: #1b4172;
+    width: 408px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
